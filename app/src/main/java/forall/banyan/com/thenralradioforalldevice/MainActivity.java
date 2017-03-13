@@ -60,6 +60,12 @@ import forall.banyan.com.thenralradioforalldevice.appcontroller.AppController;
 import xyz.hanks.library.SmallBang;
 import xyz.hanks.library.SmallBangListener;
 
+/**************************************************
+ * Author : Jothiprabhakar
+ *
+ * Date : 13/3/2017
+ * **************************************************/
+
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "Thenral FM";
