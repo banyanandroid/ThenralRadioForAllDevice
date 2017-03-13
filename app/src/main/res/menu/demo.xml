@@ -1,0 +1,38 @@
+<menu  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_toggle"
+        android:title="@string/action_show"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_anchor"
+        android:orderInCategory="200"
+        android:title="@string/action_anchor_enable"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="200"
+        android:title="@string/action_About"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_privacy"
+        android:orderInCategory="200"
+        android:title="@string/action_privacy"
+        app:showAsAction="never" />
+
+</menu>
